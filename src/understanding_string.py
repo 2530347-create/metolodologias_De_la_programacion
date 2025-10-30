@@ -11,9 +11,12 @@
 
 "El lenguaje 'Python' lleva el nombre de Monty Python, no de la serpiente."
 
-name = "clase de programacion"
+
 """
+name = "clase de programacion"
 print(name)
+
+
 """
  Un metodo es una accion de python puede realizar en un fragmento
 de datos o sobre una variable
@@ -37,3 +40,37 @@ last_name = "mercury"
 full_name = frist_name + " " + last_name
 print(full_name)
 print(full_name.title())
+
+"""
+ UN whithespace se refiere a cualquier carcacter que no 
+ se imprime, es decir, un espacio, tabuladores y finales de linea.
+ Los whithespace se utiliazan comunmente para organizar 
+ las salidas de tal manera que sea amigable de leer o ver 
+ para el usuario.
+
+  Ejemplos:
+   -Tabuladores: \t
+   .salto de lineas: \n 
+"""
+
+print("whitespace Tabulador")
+print("python")
+print("\tpython")
+print("\t\tpython")
+print("whitespace Salto de linea")
+print("Languages: \n\tPyhon\nC\n\tJavascript")
+
+
+# Eliminacion de espacios en blanco
+print("\nEliminacion de espacios en blanco")
+programming_languages = " Pyrthon "
+print(programming_languages)
+print(programming_languages.rstrip())
+print(programming_languages.lstrip())
+print(programming_languages.strip())
+
+# Syntax Error con String
+message = "Una fortaleza de python es su comunidad"
+print(message)
+message = "Una fortaleza de python es su comunidad"
+print(message)
