@@ -34,6 +34,7 @@ adicional para funcionar.
 print("metodo upper: ", name.upper())
 print("metodo lower: ", name.lower())
 
+# Concatenación
 
 frist_name = "charly"
 last_name = "mercury"
@@ -74,3 +75,32 @@ message = "Una fortaleza de python es su comunidad"
 print(message)
 message = "Una fortaleza de python es su comunidad"
 print(message)
+
+
+# f-strings
+famous_person = "Taylor swift"
+message = f"{famous_person} una vez dijo me voy al oxxo en avion"
+print(message)  
+
+print(f"{famous_person.upper()} una vez dijo me voy al oxxo en avion")
+
+#  Actividad
+
+"""
+
+ Elige el nombre de una persona famosa (quie quieras)
+ Elige una cita famosa de esta persona
+ iguala ambos strings a una variable.
+
+ 1) Realizar la cocatenacion utilizando el aigno de suma
+ 2) Realiza la cocatenacion utilizando fstrings
+
+"""
+famous_person = "Nikola tesla"
+quote = "si tubiera el tiempo suficiente crearia una maquina del tiempo"
+famous_message = famous_person + " " + quote
+message = famous_person+ "" +quote
+print(message) 
+
+f_string_message = f"{famous_person}  {quote}"
+print(f_string_message)
