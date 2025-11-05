@@ -29,14 +29,79 @@ print(bicycles[-5].title())# primer elementos
 message = "mi primera bicicleta fue una " + bicycles[-5].title() + "."
 print(message)
 
-message_f  = f"mi primera bicicleta fue una " {bicycles[-5].title()}."
+message_f = f"mi primera bicicleta fue una {bicycles[-5].title()}."
 print(message_f)
 
 ## Agregar elementos a una lista
 print("/n")
-print(Agregar elementos de una lsita)
+print("Agregar elementos de una lsita")
 print(bicycles)
 
 print("metodo de la lista para agregar elementos: list_name.apped(element)")
 bicycles. append("ducatti")
 print(bicycles)
+
+"""
+ Agregar elementos a una lista 
+      - appen(): Agrega un elementos al final de la lista
+"""
+print("\n--- grega un elementos al final de la lista() ---")
+motorcycles = ['trek', 'canondale', 'redline', 'specialized', 'giants']
+print(motorcycles)
+motorcycles.insert(-1,'otro')
+print(motorcycles)
+
+"""
+ Agregar elementos a ua lista en una posicion especifica
+    - insert(): Insetra un elementos en una posiciom especifica
+"""
+print("\n--- Insetra un elementos en una posiciom especifica() ---")
+motorcycles = ['trek', 'canondale', 'redline', 'specialized', 'giants']
+print(motorcycles)
+motorcycles.insert(1,'otro')
+print(motorcycles)
+
+"""
+ ELiminar elementos de ina lista
+   -del: Elimina un elementos en una posicion especifica
+"""
+
+print("\n--- Elimina un elementos en una posicion especifica() ---")
+motorcycles = ['trek', 'canondale', 'redline', 'specialized', 'giants']
+print(motorcycles)
+del motorcycles[0]
+print(motorcycles)
+
+"""
+    Eliminar elementos de una lista y sural valor eliminado metodo pop
+"""
+print("\n---Eliminar elementos de una lista y sural valor eliminado() ---")
+motorcycles = ['trek', 'canondale', 'redline', 'specialized', 'giants']
+print(motorcycles)
+last_motorcycles = motorcycles.pop()
+print(motorcycles)
+print (f'elimnaste gigant' )
+
+"""
+    Eliminar elementos especifico
+      -pop(index): Elimina elementos especifico de la lista
+         por un valor metodo pop(index)
+"""
+print("\n--- Elimina elementos especifico de la listad() ---")
+motorcycles = ['trek', 'canondale', 'redline', 'specialized', 'giants']
+print(motorcycles)
+motorcycles.remove('trek')
+print(motorcycles)
+print("\n")
+
+"""
+    Organizadar una lista permanente
+        -sort(): Ordena la lista en orden alfafetico
+"""
+
+print("\n--- Ordena la lista en orden alfafetico() ---")
+motorcycles = ['trek', 'canondale', 'redline', 'specialized', 'giants']
+print(motorcycles)
+motorcycles.sort()
+print(motorcycles)
+print("\n")
