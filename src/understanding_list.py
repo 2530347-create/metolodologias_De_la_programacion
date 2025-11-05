@@ -43,12 +43,12 @@ print(bicycles)
 
 """
  Agregar elementos a una lista 
-      - appen(): Agrega un elementos al final de la lista
+      - append(): Agrega un elementos al final de la lista
 """
 print("\n--- grega un elementos al final de la lista() ---")
 motorcycles = ['trek', 'canondale', 'redline', 'specialized', 'giants']
 print(motorcycles)
-motorcycles.insert(-1,'otro')
+motorcycles.append('otro')
 print(motorcycles)
 
 """
