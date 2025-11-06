@@ -105,3 +105,25 @@ print(motorcycles)
 motorcycles.sort()
 print(motorcycles)
 print("\n")
+
+"""
+    Ejemplo:
+"""
+
+students =  ["josue","victor","ana","mike","paulo","gerardo"]
+print(students)
+desired_student = input("¿Que estudiante vas a borrar?")
+students.remove(desired_student.strip().lower())
+print(students)
+print("Tu has eliminado : ", desired_student)
+students.reverse()
+print(students)
+
+print(len(students))
+
+cars =  ["kia", "fors", "tesla", "volvo", "chevrolet"]
+print(cars)
+print(sorted(cars))
+sorted_list = sorted (cars)
+print("Lista original: ",cars)
+
