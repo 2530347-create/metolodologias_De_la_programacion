@@ -33,7 +33,7 @@ message_f = f"mi primera bicicleta fue una {bicycles[-5].title()}."
 print(message_f)
 
 ## Agregar elementos a una lista
-print("/n")
+print("\n")
 print("Agregar elementos de una lsita")
 print(bicycles)
 

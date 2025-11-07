@@ -1,0 +1,43 @@
+#Trabajando con listas
+"""
+    Recorrer una lista sin importar la cantidad
+    de elementos que tengo
+"""
+
+magicians = ["ron", "hermione", "harry"]
+
+for magician in magicians:
+    print(magician)
+    print(magician.upper())
+    print(f"{magician.title()} ese fue un gran hechizo.")
+    print(f"\t {magician.lower()} no podemos esperar para ver tu suigiente hechizo.")
+    print("\n")
+
+print("Gracias a todos, fue un gran espectaculo")
+
+"""
+    Indentacion:
+
+    Python utliza la indentacion poara determinar cuando una linea
+    de codigos esta conectada a la linea de codigos anterior.
+
+    Basicamnete, se utiliza 4 espacios en blanco para obligarnos a 
+    escribir codigos ordenado y estructurado
+"""
+# No olvidemos identar
+magician = ["ron", "hermione", "harry"]
+for magician in magicians:
+    print(magician)
+
+    """
+    Identificar error
+    """
+#Error logica
+    magician = ["ron", "hermione", "harry"]
+for magician in magicians:
+    print(magician)
+print(f"I cant wait to see your next trickt, {magician.title()}")
+
+# identacion innecesaria
+message = "hola"
+print(message)
