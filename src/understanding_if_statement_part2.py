@@ -36,7 +36,7 @@ else:
 print("Gracias")
 """
 
-"""
+
 age = 0
 
 try:
@@ -59,7 +59,7 @@ else:
     print("ERROR, escribe bien tu edad por favor")
 
 print("Disfruta su visita")
-"""
+
 
 """
 #if multiple
@@ -79,7 +79,7 @@ if "salsa verde" in guisos:
 else:
     print("No hay salse verde")
 """
-
+"""
 # Utilizando varias listas
 
 guusos_disponibles = ["deshebrada", "deshebrada", "mole"]
@@ -94,3 +94,4 @@ for guisos in guisos_a_ordenar:
     else:
         print("No tenemos de ese guiso")
 print("Realizando pedido...")
+"""
