@@ -55,6 +55,12 @@ for value in homer_0.value():
 ##Listas en diccionarios
 ## Diccionarios de diccionarios
 """
+
+print("informacion del cobenant")
+
+print()
+
+
 covenant_grut = {
     "color": "orange",
     "weapon": "plasma-gun",
@@ -96,7 +102,7 @@ students = {
     "gabriel":  ["aprobado", "119muerte", "crack-fornite"],
 }
 
-snesor = {
+senesor = {
     "temperature": {
         "id": "temp_1",
         "location": "aula 105",
@@ -105,9 +111,9 @@ snesor = {
     },
     "humedad": {
         "id": "hum",
-        "location": "aula 103"
-        "value":60
-        "uniti":"percentaje"
+        "location": "aula 103",
+        "value": 60,
+        "uniti":"percentaje",
     }
 }
 
