@@ -42,7 +42,7 @@ while True:
 
 print("cantidad ingresada de numeros: ", counter)
 print("suma de cantidades: ", sum_cantidad)
-print("minimo de cantidades: ", maximum)
-print("maximo de cantidades: ", minimo)
+print("minimo de cantidades: ", minimo)
+print("maximo de cantidades: ", maximum)
 
         
