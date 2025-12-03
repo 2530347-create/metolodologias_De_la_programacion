@@ -126,4 +126,3 @@ print(cars)
 print(sorted(cars))
 sorted_list = sorted (cars)
 print("Lista original: ",cars)
-

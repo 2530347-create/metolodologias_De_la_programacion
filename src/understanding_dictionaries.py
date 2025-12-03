@@ -118,3 +118,4 @@ senesor = {
 }
 
 print("tempetatura")
+
